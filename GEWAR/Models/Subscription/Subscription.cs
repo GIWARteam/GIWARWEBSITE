@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace GEWAR.Models
 {
    
-        public class Subscription
-        {
+        public class Subscription : BaseModel
+    {
             public enum PlanTypeEnum
             {
                 Basic,

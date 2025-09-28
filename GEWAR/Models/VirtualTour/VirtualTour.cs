@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    internal class VirtualTour
+    internal class VirtualTour : BaseModel
     {
     }
 }

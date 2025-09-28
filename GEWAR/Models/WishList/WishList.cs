@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class WishList
+    public class WishList : BaseModel
     {
-        public int WishID { get; set; }
         public int UserID { get; set; }
         public int PropertyID { get; set; }
         public DateTime AddedDate { get; set; }

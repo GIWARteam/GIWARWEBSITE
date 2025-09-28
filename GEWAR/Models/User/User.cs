@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-   public class User
+   public class User : BaseModel
     {
         public enum UserTypeEnum
         {
@@ -15,7 +15,6 @@ namespace GEWAR.Models
             InteriorDesigner,
             Admin
         }
-        public int UserID { get; set; }
         public string Name { get; set; }
         public string Username { get; set; }
         public string PasswordHash { get; set; }
