@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Booking\Booking.cs" />
     <Compile Include="Models\BookingRating\BookingRating.cs" />
     <Compile Include="Models\Chat\Chat.cs" />
