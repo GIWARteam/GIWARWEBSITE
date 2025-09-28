@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    internal class WishList
+    public class WishList
     {
+        public int WishID { get; set; }
+        public int UserID { get; set; }
+        public int PropertyID { get; set; }
+        public DateTime AddedDate { get; set; }
+        public string Notes { get; set; }
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    internal class InteriorDesigner
+    public class InteriorDesigner
     {
+        public int DesignerID { get; set; }
+        public string Specialization { get; set; }
+        public int? ExperienceYears { get; set; }
+        public string PortfolioURL { get; set; }
     }
 }
