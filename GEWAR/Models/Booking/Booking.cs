@@ -23,7 +23,7 @@ namespace GEWAR.Models
             Refunded
         }
 
-
+      
         public int PropertyID { get; set; }
         public int CustomerID { get; set; }
         public int? OfferID { get; set; }
