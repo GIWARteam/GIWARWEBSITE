@@ -43,11 +43,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Booking.cs" />
+    <Compile Include="Models\BookingRating\BookingRating.cs" />
+    <Compile Include="Models\Chat\Chat.cs" />
+    <Compile Include="Models\Complaint.cs" />
+    <Compile Include="Models\Design.cs" />
+    <Compile Include="Models\DesignerProject.cs" />
+    <Compile Include="Models\InteriorDesigner.cs" />
+    <Compile Include="Models\InvestmentPortfolio.cs" />
+    <Compile Include="Models\Notification.cs" />
+    <Compile Include="Models\Offer.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\PortfolioPropertie.cs" />
+    <Compile Include="Models\Propertie.cs" />
+    <Compile Include="Models\PropertyAnalytic.cs" />
+    <Compile Include="Models\PropertyMedia.cs" />
+    <Compile Include="Models\PropertyService.cs" />
+    <Compile Include="Models\Proposal.cs" />
+    <Compile Include="Models\RenovationCost.cs" />
+    <Compile Include="Models\RenovationProject.cs" />
+    <Compile Include="Models\Report.cs" />
+    <Compile Include="Models\Request.cs" />
+    <Compile Include="Models\RequestRating.cs" />
+    <Compile Include="Models\Subscription.cs" />
+    <Compile Include="Models\SystemLog.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\VirtualTour.cs" />
+    <Compile Include="Models\WishList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Booking\" />
+    <Folder Include="Models\Complaint\" />
+    <Folder Include="Models\DesignerProject\" />
+    <Folder Include="Models\Design\" />
+    <Folder Include="Models\InteriorDesigner\" />
+    <Folder Include="Models\InvestmentPortfolio\" />
+    <Folder Include="Models\Notification\" />
+    <Folder Include="Models\Offers\" />
+    <Folder Include="Models\Payment\" />
+    <Folder Include="Models\PortfolioPropertie\" />
+    <Folder Include="Models\Propertie\" />
+    <Folder Include="Models\PropertyAnalytic\" />
+    <Folder Include="Models\PropertyMedia\" />
+    <Folder Include="Models\PropertyService\" />
+    <Folder Include="Models\Proposal\" />
+    <Folder Include="Models\RenovationCost\" />
+    <Folder Include="Models\RenovationProject\" />
+    <Folder Include="Models\Report\" />
+    <Folder Include="Models\RequestRating\" />
+    <Folder Include="Models\Request\" />
+    <Folder Include="Models\Subscription\" />
+    <Folder Include="Models\SystemLog\" />
+    <Folder Include="Models\User\" />
+    <Folder Include="Models\VirtualTour\" />
+    <Folder Include="Models\WishList\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
