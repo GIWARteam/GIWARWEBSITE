@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    internal class InvestmentPortfolio : BaseModel
+    public class InvestmentPortfolio : BaseModel
     {
     }
 }

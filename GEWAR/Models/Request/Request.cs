@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class Request
+    public class Request : BaseModel
     {
         public enum StatusEnum
         {
@@ -15,7 +15,6 @@ namespace GEWAR.Models
             Rejected
         }
 
-        public int RequestID { get; set; }
         public int CustomerID { get; set; }
         public int PropertyID { get; set; }
         public string Description { get; set; }

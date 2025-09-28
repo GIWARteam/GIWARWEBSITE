@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class Propertie
+    public class Propertie : BaseModel
     {
         public int PropertyID { get; set; }
         public int OwnerID { get; set; }

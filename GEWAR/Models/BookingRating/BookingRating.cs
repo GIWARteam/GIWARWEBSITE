@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    internal class BookingRating
+    internal class BookingRating : BaseModel
 
     {
 

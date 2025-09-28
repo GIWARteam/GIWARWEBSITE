@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class Booking
+    public class Booking : BaseModel
     {
         public enum StatusEnum
         {
@@ -23,7 +23,6 @@ namespace GEWAR.Models
             Refunded
         }
 
-        public int BookingID { get; set; }
         public int PropertyID { get; set; }
         public int CustomerID { get; set; }
         public int? OfferID { get; set; }

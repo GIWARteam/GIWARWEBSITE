@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    internal class DesignerProject
+    public class DesignerProject : BaseModel
     {
     }
 }

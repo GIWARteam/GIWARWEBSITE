@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class Proposal
+    public class Proposal : BaseModel
     {
         public enum StatusEnum
         {
@@ -17,7 +17,6 @@ namespace GEWAR.Models
             Rejected
         }
 
-        public int ProposalID { get; set; }
         public int RequestID { get; set; }
         public int DesignerID { get; set; }
         public string OfferDetails { get; set; }

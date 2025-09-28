@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace GEWAR.Models
 {
    
-        public class Subscription
-        {
+        public class Subscription : BaseModel
+    {
             public enum PlanTypeEnum
             {
                 Basic,
@@ -22,7 +22,6 @@ namespace GEWAR.Models
                 Expired
             }
 
-            public int SubscriptionID { get; set; }
             public int UserID { get; set; }
             public string PlanType { get; set; }
             public DateTime StartDate { get; set; }

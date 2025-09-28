@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public  class Offer
+    public  class Offer : BaseModel
     {
         
-            public int OfferID { get; set; }
             public int BuyerID { get; set; }
             public int PropertyID { get; set; }
             public decimal OfferAmount { get; set; }

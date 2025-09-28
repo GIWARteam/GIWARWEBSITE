@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class PropertyMedia
+    public class PropertyMedia : BaseModel
     {
         public enum MediaTypeEnum
         {
@@ -18,7 +18,6 @@ namespace GEWAR.Models
             _360Tour 
         }
 
-        public int MediaID { get; set; }
         public int PropertyID { get; set; }
         public string MediaURL { get; set; }
         public string MediaType { get; set; }

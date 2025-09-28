@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
     {
-        public class RenovationProject
-        {
+        public class RenovationProject : BaseModel
+    {
             public enum ProjectStatusEnum
             {
                 Estimated,
@@ -17,7 +17,6 @@ namespace GEWAR.Models
                 Completed
             }
 
-            public int ProjectID { get; set; }
             public int UserID { get; set; }
             public int PropertyID { get; set; }
             public decimal? EstimatedCost { get; set; }
