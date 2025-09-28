@@ -8,7 +8,6 @@ namespace GEWAR.Models
 {
     public class InteriorDesigner : BaseModel
     {
-        public int DesignerID { get; set; }
         public string Specialization { get; set; }
         public int? ExperienceYears { get; set; }
         public string PortfolioURL { get; set; }
