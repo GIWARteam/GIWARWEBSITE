@@ -8,5 +8,13 @@ namespace GEWAR.Models
 {
     internal class Payment
     {
-    }
+        public int PaymentID { get; set; }
+        public int UserID { get; set; }
+        public string RelatedType { get; set; }
+        public int RelatedID { get; set; }
+        public decimal Amount { get; set; }
+        public string PaymentMethod { get; set; }
+        public DateTime PaymentDate { get; set; } = DateTime.Now;
+        public string Status { get; set; } = "Pending";
+   }
 }

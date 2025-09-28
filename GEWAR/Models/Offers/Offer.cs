@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    internal class Offer
+    public  class Offer
     {
+        
+            public int OfferID { get; set; }
+            public int BuyerID { get; set; }
+            public int PropertyID { get; set; }
+            public decimal OfferAmount { get; set; }
+            public string OfferStatus { get; set; } = "Pending";
+            public DateTime OfferDate { get; set; } = DateTime.Now;
+        
     }
 }

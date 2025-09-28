@@ -9,5 +9,6 @@ namespace GEWAR.Models
     internal class BookingRating
 
     {
+
     }
 }
