@@ -58,17 +58,25 @@
     <Compile Include="Models\PortfolioPropertie\PortfolioPropertie.cs" />
     <Compile Include="Models\Propertie\Propertie.cs" />
     <Compile Include="Models\PropertyAnalytic\PropertyAnalytic.cs" />
+    <Compile Include="Models\PropertyMedia\MediaTypeEnum.cs" />
     <Compile Include="Models\PropertyMedia\PropertyMedia.cs" />
     <Compile Include="Models\PropertyService\PropertyService.cs" />
     <Compile Include="Models\Proposal\Proposal.cs" />
+    <Compile Include="Models\Proposal\StatusEnum.cs" />
     <Compile Include="Models\RenovationCost\RenovationCost.cs" />
+    <Compile Include="Models\RenovationProject\ProjectStatusEnum.cs" />
     <Compile Include="Models\RenovationProject\RenovationProject.cs" />
     <Compile Include="Models\Report\Report.cs" />
     <Compile Include="Models\Request\Request.cs" />
     <Compile Include="Models\RequestRating\RequestRating.cs" />
+    <Compile Include="Models\Request\RequestConfiguration.cs" />
+    <Compile Include="Models\Request\StatusEnum.cs" />
+    <Compile Include="Models\Subscription\PlanTypeEnum.cs" />
+    <Compile Include="Models\Subscription\StatusEnum.cs" />
     <Compile Include="Models\Subscription\Subscription.cs" />
     <Compile Include="Models\SystemLog\SystemLog.cs" />
     <Compile Include="Models\User\User.cs" />
+    <Compile Include="Models\User\UserTypeEnum.cs" />
     <Compile Include="Models\VirtualTour\VirtualTour.cs" />
     <Compile Include="Models\WishList\WishList.cs" />
     <Compile Include="Program.cs" />
@@ -77,6 +85,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Enum\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,22 +6,8 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class Booking : BaseModel
+    public partial class Booking : BaseModel
     {
-        public enum StatusEnum
-        {
-            Pending,
-            Confirmed,
-            Cancelled
-        }
-
-        public enum PaymentStatusEnum
-        {
-            Pending,
-            Completed,
-            Failed,
-            Refunded
-        }
 
       
         public int PropertyID { get; set; }

@@ -8,14 +8,8 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class Proposal : BaseModel
+    public partial class Proposal : BaseModel
     {
-        public enum StatusEnum
-        {
-            Pending,
-            Accepted,
-            Rejected
-        }
 
         public int RequestID { get; set; }
         public int DesignerID { get; set; }

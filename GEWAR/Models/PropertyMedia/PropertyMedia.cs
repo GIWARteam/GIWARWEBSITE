@@ -8,15 +8,8 @@ using System.Threading.Tasks;
 
 namespace GEWAR.Models
 {
-    public class PropertyMedia : BaseModel
+    public partial class PropertyMedia : BaseModel
     {
-        public enum MediaTypeEnum
-        {
-            Image,
-            Video,
-            FloorPlan,
-            _360Tour 
-        }
 
         public int PropertyID { get; set; }
         public string MediaURL { get; set; }
