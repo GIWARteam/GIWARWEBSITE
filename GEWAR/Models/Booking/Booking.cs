@@ -18,17 +18,17 @@ namespace GEWAR.Models
         public DateTime? EndDate { get; set; }
         public string PaymentStatus { get; set; }
 
-        public static bool IsValidStatus(string status)
-        {
-            return Enum.TryParse<StatusEnum>(status, true, out var result) &&
-                   Enum.IsDefined(typeof(StatusEnum), result);
-        }
+        //public static bool IsValidStatus(string status)
+        //{
+        //    return Enum.TryParse<StatusEnum>(status, true, out var result) &&
+        //           Enum.IsDefined(typeof(StatusEnum), result);
+        //}
 
-        public static bool IsValidPaymentStatus(string paymentStatus)
-        {
-            return Enum.TryParse<PaymentStatusEnum>(paymentStatus, true, out var result) &&
-                   Enum.IsDefined(typeof(PaymentStatusEnum), result);
-        }
+        //public static bool IsValidPaymentStatus(string paymentStatus)
+        //{
+        //    return Enum.TryParse<PaymentStatusEnum>(paymentStatus, true, out var result) &&
+        //           Enum.IsDefined(typeof(PaymentStatusEnum), result);
+        //}
     }
 
 
